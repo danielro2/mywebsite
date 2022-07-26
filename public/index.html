@@ -182,6 +182,7 @@
 
 		for (i=0;i<4;i++) {
 		    controlArrows[i].onclick = () => {bgm.play()};
+			controlArrows[i].addEventListener('touchstart', () => {bgm.play()});
 		}
 		
 		</script>
